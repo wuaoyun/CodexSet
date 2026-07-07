@@ -1,0 +1,149 @@
+{
+  "settings": {
+    "enableSwitching": true,
+    "activeProviderId": "gemini-studio",
+    "codexStartupCommand": "codex --proxy-port 3000",
+    "codexStatus": "running",
+    "openaiEnvDetected": false
+  },
+  "providers": [
+    {
+      "id": "openai-official",
+      "name": "OpenAI Official",
+      "baseUrl": "https://api.openai.com/v1",
+      "key": "",
+      "protocol": "chat_completions",
+      "defaultModel": "gpt-4o-mini",
+      "models": [
+        {
+          "name": "gpt-4o",
+          "contextWindow": "128K"
+        },
+        {
+          "name": "gpt-4o-mini",
+          "contextWindow": "128K"
+        },
+        {
+          "name": "o1-mini",
+          "contextWindow": "128K"
+        },
+        {
+          "name": "o3-mini",
+          "contextWindow": "200K"
+        }
+      ],
+      "isPreset": true
+    },
+    {
+      "id": "deepseek-official",
+      "name": "DeepSeek Official",
+      "baseUrl": "https://api.deepseek.com/v1",
+      "key": "",
+      "protocol": "chat_completions",
+      "defaultModel": "deepseek-chat",
+      "models": [
+        {
+          "name": "deepseek-chat",
+          "contextWindow": "64K"
+        },
+        {
+          "name": "deepseek-coder",
+          "contextWindow": "64K"
+        }
+      ],
+      "isPreset": true
+    },
+    {
+      "id": "claude-official",
+      "name": "Anthropic Claude Official",
+      "baseUrl": "https://api.anthropic.com",
+      "key": "",
+      "protocol": "anthropic_messages",
+      "defaultModel": "claude-3-5-sonnet-latest",
+      "models": [
+        {
+          "name": "claude-3-5-sonnet-latest",
+          "contextWindow": "200K"
+        },
+        {
+          "name": "claude-3-5-haiku-latest",
+          "contextWindow": "200K"
+        },
+        {
+          "name": "claude-3-opus-latest",
+          "contextWindow": "200K"
+        }
+      ],
+      "isPreset": true
+    },
+    {
+      "id": "gemini-studio",
+      "name": "Google Gemini (AI Studio Key)",
+      "baseUrl": "https://generativelanguage.googleapis.com/v1beta/openai",
+      "key": "AIzaSyAWZCdCFC32hSo5wT2acOVQaYCWiGNrs9o",
+      "protocol": "chat_completions",
+      "defaultModel": "gemini-2.5-flash",
+      "models": [
+        {
+          "name": "gemini-2.5-flash",
+          "contextWindow": "1M"
+        },
+        {
+          "name": "gemini-2.5-pro",
+          "contextWindow": "2M"
+        },
+        {
+          "name": "gemini-1.5-flash",
+          "contextWindow": "1M"
+        }
+      ],
+      "isPreset": true
+    },
+    {
+      "id": "siliconflow",
+      "name": "SiliconFlow (硅基流动)",
+      "baseUrl": "https://api.siliconflow.cn/v1",
+      "key": "",
+      "protocol": "chat_completions",
+      "defaultModel": "deepseek-ai/DeepSeek-V3",
+      "models": [
+        {
+          "name": "deepseek-ai/DeepSeek-V3",
+          "contextWindow": "64K"
+        },
+        {
+          "name": "deepseek-ai/DeepSeek-R1",
+          "contextWindow": "64K"
+        },
+        {
+          "name": "THUDM/glm-4-9b-chat",
+          "contextWindow": "32K"
+        }
+      ],
+      "isPreset": true
+    },
+    {
+      "id": "openrouter",
+      "name": "OpenRouter",
+      "baseUrl": "https://openrouter.ai/api/v1",
+      "key": "",
+      "protocol": "chat_completions",
+      "defaultModel": "google/gemini-2.5-flash",
+      "models": [
+        {
+          "name": "google/gemini-2.5-flash",
+          "contextWindow": "1M"
+        },
+        {
+          "name": "anthropic/claude-3.5-sonnet",
+          "contextWindow": "200K"
+        },
+        {
+          "name": "deepseek/deepseek-chat",
+          "contextWindow": "64K"
+        }
+      ],
+      "isPreset": true
+    }
+  ]
+}

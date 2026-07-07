@@ -1,0 +1,6 @@
+{
+  "name": "CodexSet 控制台",
+  "description": "一个功能强大的 Codex 代理与供应商配置管理控制台，支持多模型切换、一键重启、多API路由兼容、以及全自动协议转换。",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
